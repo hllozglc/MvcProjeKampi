@@ -50,7 +50,7 @@ namespace MvcProjeKampi
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{controller=AdminCategory}/{action=Index}/{id?}");
             });
         }
     }
